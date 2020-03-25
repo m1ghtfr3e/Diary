@@ -29,10 +29,13 @@ def writeTagebuch():
 
 
 def main():
-    print("Hallo Polo, willkommen zu Deinem Tagebuch :) ")
+
+    print("Hallo, willkommen zu Deinem Tagebuch :) ")
     while True:
-        opt = input("""Willst du mich lesen oder
-                    etwas neues hinzufügen? : """)
+        opt = input("""
+Willst du mich lesen oder
+etwas neues hinzufügen? :
+""")
         if opt == 'lesen':
             readTagebuch()
         if opt == 'schreiben':
